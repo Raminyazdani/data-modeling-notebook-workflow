@@ -1,9 +1,8 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(config): Add GitHub configuration directory
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(deps): Add core Python data science dependencies
 
-Added GitHub-specific configurations:
-- Created .github/ directory structure
-- Added copilot-instructions.md for AI coding assistance
-- Set up issue templates for standardized reporting
+Added fundamental data science packages to requirements.txt:
+- numpy>=1.21.0 for numerical computing and array operations
+- matplotlib>=3.3.0 for data visualizations and plotting
 
-After establishing project identity, added GitHub-specific tooling for better collaboration and automation.
-Verified: .github/ directory created with proper structure.
+Started with the most fundamental packages needed for any data science analysis.
+Verified: requirements.txt updated, dependencies installable.
