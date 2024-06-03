@@ -1,8 +1,7 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(deps): Add core Python data science dependencies
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(deps): Add Jupyter notebook dependency
 
-Added fundamental data science packages to requirements.txt:
-- numpy>=1.21.0 for numerical computing and array operations
-- matplotlib>=3.3.0 for data visualizations and plotting
+Extended requirements.txt with:
+- jupyter>=1.0.0 for interactive notebook environment
 
-Started with the most fundamental packages needed for any data science analysis.
-Verified: requirements.txt updated, dependencies installable.
+Separated Jupyter from core computing packages as it's the execution environment rather than a computation library.
+Verified: All dependencies in requirements.txt are compatible.
