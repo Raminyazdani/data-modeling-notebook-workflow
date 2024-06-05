@@ -1,7 +1,7 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(deps): Add Jupyter notebook dependency
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(deps): Add scikit-learn for machine learning
 
-Extended requirements.txt with:
-- jupyter>=1.0.0 for interactive notebook environment
+Added machine learning library to requirements.txt:
+- scikit-learn>=1.0.0 for K-means, PCA, and LogisticRegression algorithms
 
-Separated Jupyter from core computing packages as it's the execution environment rather than a computation library.
-Verified: All dependencies in requirements.txt are compatible.
+After basic data science stack, added the ML library specifically needed for unsupervised learning techniques.
+Verified: Complete dependency stack ready for implementation.
