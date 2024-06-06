@@ -1,9 +1,9 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(notebook): Create initial notebook structure
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(notebook): Add import statements and dependencies
 
-Created unsupervised_learning_analysis.ipynb with:
-- Professional header cell with title, author, and date
-- Overview section explaining unsupervised learning techniques
-- Introduction with notebook purpose and structure
+Extended notebook with imports cell:
+- numpy for numerical operations
+- matplotlib.pyplot for visualizations
+- sklearn modules for machine learning (datasets, cluster, decomposition, linear_model, model_selection, metrics)
 
-Established the notebook file before adding detailed implementation.
-Verified: Notebook opens successfully in Jupyter.
+Added all required imports in one cell for clear dependency declaration.
+Verified: All imports resolve successfully.
