@@ -1,9 +1,9 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(notebook): Add import statements and dependencies
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(notebook): Add notebook outline structure
 
-Extended notebook with imports cell:
-- numpy for numerical operations
-- matplotlib.pyplot for visualizations
-- sklearn modules for machine learning (datasets, cluster, decomposition, linear_model, model_selection, metrics)
+Created notebook organization structure:
+- Part One: Clustering Analysis section header
+- Part Two: Dimensionality Reduction with PCA section header
+- Placeholder cells for each major analysis component
 
-Added all required imports in one cell for clear dependency declaration.
-Verified: All imports resolve successfully.
+Outlined the major sections before implementing analysis to plan the notebook flow.
+Verified: Notebook structure provides clear navigation.
