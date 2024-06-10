@@ -1,9 +1,10 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(notebook): Add notebook outline structure
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(data): Load scikit-learn digits dataset
 
-Created notebook organization structure:
-- Part One: Clustering Analysis section header
-- Part Two: Dimensionality Reduction with PCA section header
-- Placeholder cells for each major analysis component
+Added dataset loading code:
+- Load built-in scikit-learn digits dataset (8x8 pixel handwritten digits)
+- Display dataset dimensions and structure
+- Print basic data exploration (1797 samples, 64 features, 10 classes)
+- Set random_state=42 for reproducibility
 
-Outlined the major sections before implementing analysis to plan the notebook flow.
-Verified: Notebook structure provides clear navigation.
+Before implementing algorithms, loaded and explored the dataset to understand its characteristics.
+Verified: Dataset loads successfully, dimensions correct.
