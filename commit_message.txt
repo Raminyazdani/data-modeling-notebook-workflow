@@ -1,10 +1,8 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(data): Load scikit-learn digits dataset
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(viz): Add basic sample digit visualizations
 
-Added dataset loading code:
-- Load built-in scikit-learn digits dataset (8x8 pixel handwritten digits)
-- Display dataset dimensions and structure
-- Print basic data exploration (1797 samples, 64 features, 10 classes)
-- Set random_state=42 for reproducibility
+Added initial visualization cells:
+- Display first few digit images from the dataset
+- Show the variety of handwritten digits in 1D array
 
-Before implementing algorithms, loaded and explored the dataset to understand its characteristics.
-Verified: Dataset loads successfully, dimensions correct.
+Visualizing sample data helps understand what we're working with.
+Verified: Images render correctly in notebook.
