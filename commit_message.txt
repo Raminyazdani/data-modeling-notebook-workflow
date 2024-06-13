@@ -1,9 +1,10 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(viz): Enhance visualizations with grid layout
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | WIP(clustering): Implement elbow method with incorrect k value
 
-Improved digit visualizations:
-- Created 2x5 grid layout displaying 10 sample digits
-- Added proper subplot configuration and titles
-- Improved figure sizing for better presentation
+Implemented elbow method analysis:
+- Calculate inertia for k=1 to 100
+- Create elbow curve visualization showing optimal k≈50
+- Added analysis questions section
 
-Grid layout provides better overview of digit variety.
-Verified: Grid visualization displays correctly.
+ERROR INTRODUCED: Set k=10 in subsequent clustering code despite elbow suggesting k≈50.
+This represents a common mistake where analysis results aren't immediately applied to implementation.
+Verified: Elbow curve generates correctly (but k value mismatch exists).
