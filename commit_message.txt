@@ -1,8 +1,9 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(viz): Add basic sample digit visualizations
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(viz): Enhance visualizations with grid layout
 
-Added initial visualization cells:
-- Display first few digit images from the dataset
-- Show the variety of handwritten digits in 1D array
+Improved digit visualizations:
+- Created 2x5 grid layout displaying 10 sample digits
+- Added proper subplot configuration and titles
+- Improved figure sizing for better presentation
 
-Visualizing sample data helps understand what we're working with.
-Verified: Images render correctly in notebook.
+Grid layout provides better overview of digit variety.
+Verified: Grid visualization displays correctly.
