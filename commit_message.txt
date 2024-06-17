@@ -1,9 +1,10 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(semi-supervised): Complete baseline experiment with results
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(semi-supervised): Add cluster representative training
 
-Completed first semi-supervised experiment:
-- Train LogisticRegression on only 50 labeled samples
-- Evaluate on test set
-- Record baseline accuracy for comparison (~0.95 accuracy)
+Implemented second semi-supervised experiment:
+- Extract one representative point from each of k=50 clusters
+- Train LogisticRegression on these 50 cluster representatives
+- Compare performance to baseline
+- Show that strategic sampling can improve results
 
-Established a baseline by training with limited labeled data to quantify the benefit of clustering-based approaches.
-Verified: Baseline model trains and evaluates successfully.
+Tested whether cluster representatives could provide better coverage than random sampling.
+Verified: Cluster-based training shows improved accuracy.
