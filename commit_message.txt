@@ -1,10 +1,9 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(semi-supervised): Add cluster representative training
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(semi-supervised): Add cluster-based label propagation
 
-Implemented second semi-supervised experiment:
-- Extract one representative point from each of k=50 clusters
-- Train LogisticRegression on these 50 cluster representatives
-- Compare performance to baseline
-- Show that strategic sampling can improve results
+Implemented third semi-supervised experiment:
+- Use cluster assignments as automatic labels for all data points
+- Train LogisticRegression on all data with cluster-based labels
+- Evaluate effectiveness of unsupervised labeling approach
 
-Tested whether cluster representatives could provide better coverage than random sampling.
-Verified: Cluster-based training shows improved accuracy.
+Explored using clustering as a complete alternative to manual labeling.
+Verified: Cluster-based labeling provides reasonable classification accuracy.
