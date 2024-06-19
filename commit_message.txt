@@ -1,9 +1,10 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(semi-supervised): Add cluster-based label propagation
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(pca): Implement PCA dimensionality reduction
 
-Implemented third semi-supervised experiment:
-- Use cluster assignments as automatic labels for all data points
-- Train LogisticRegression on all data with cluster-based labels
-- Evaluate effectiveness of unsupervised labeling approach
+Added Part Two to the notebook:
+- Created PCA analysis function (pca_logistic_regression)
+- Implemented dimensionality sweep framework
+- Added explained variance analysis structure
+- Set up for testing different n_components values
 
-Explored using clustering as a complete alternative to manual labeling.
-Verified: Cluster-based labeling provides reasonable classification accuracy.
+Extended the notebook to cover dimensionality reduction as a complementary unsupervised learning technique.
+Verified: PCA function implemented and callable.
