@@ -1,10 +1,9 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(pca): Implement PCA dimensionality reduction
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | WIP(pca): Add PCA sweep using powers of 2
 
-Added Part Two to the notebook:
-- Created PCA analysis function (pca_logistic_regression)
-- Implemented dimensionality sweep framework
-- Added explained variance analysis structure
-- Set up for testing different n_components values
+Extended PCA analysis with component sweep:
+- ERROR: Used powers of 2 for n_components=[4, 8, 16, 32, 64]
+- This approach misses important middle values in the component space
 
-Extended the notebook to cover dimensionality reduction as a complementary unsupervised learning technique.
-Verified: PCA function implemented and callable.
+Developer mistakenly thought powers of 2 would be a good systematic approach, but this caused gaps in the analysis.
+Common error when not thinking about the actual distribution of optimal values.
+Verified: PCA runs but component selection is suboptimal.
