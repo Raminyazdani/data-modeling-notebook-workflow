@@ -1,9 +1,10 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | WIP(pca): Add PCA sweep using powers of 2
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(pca): Fix PCA components to use even spacing
 
-Extended PCA analysis with component sweep:
-- ERROR: Used powers of 2 for n_components=[4, 8, 16, 32, 64]
-- This approach misses important middle values in the component space
+HOTFIX: Corrected component selection:
+- Changed to evenly spaced values: [5, 15, 30, 45, 64]
+- Provides better coverage of the component space
+- Captures optimal component selection more accurately
 
-Developer mistakenly thought powers of 2 would be a good systematic approach, but this caused gaps in the analysis.
-Common error when not thinking about the actual distribution of optimal values.
-Verified: PCA runs but component selection is suboptimal.
+After seeing large accuracy jump between 16 and 32, realized we needed better granularity in the middle range.
+This represents catching an analysis gap through result inspection.
+Verified: PCA results show smoother accuracy progression.
