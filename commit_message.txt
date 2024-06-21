@@ -1,10 +1,9 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(pca): Fix PCA components to use even spacing
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(docs): Improve inline code documentation
 
-HOTFIX: Corrected component selection:
-- Changed to evenly spaced values: [5, 15, 30, 45, 64]
-- Provides better coverage of the component space
-- Captures optimal component selection more accurately
+Enhanced code documentation:
+- Added detailed comments explaining each algorithm step
+- Clarified variable names and their purposes
+- Added rationale comments for key decisions (k selection, train/test split)
 
-After seeing large accuracy jump between 16 and 32, realized we needed better granularity in the middle range.
-This represents catching an analysis gap through result inspection.
-Verified: PCA results show smoother accuracy progression.
+With core analysis complete, focused on making the code more understandable and self-documenting.
+Verified: Code comments are clear and accurate.
