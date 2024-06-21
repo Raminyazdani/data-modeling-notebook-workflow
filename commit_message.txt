@@ -1,9 +1,9 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(docs): Improve inline code documentation
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(docs): Add explanatory markdown cells
 
-Enhanced code documentation:
-- Added detailed comments explaining each algorithm step
-- Clarified variable names and their purposes
-- Added rationale comments for key decisions (k selection, train/test split)
+Extended notebook with markdown explanations:
+- Added markdown cells explaining methodology
+- Included interpretation of results
+- Documented key findings and insights
 
-With core analysis complete, focused on making the code more understandable and self-documenting.
-Verified: Code comments are clear and accurate.
+Enhanced the notebook's educational value by adding contextual explanations.
+Verified: Markdown cells render correctly and enhance understanding.
