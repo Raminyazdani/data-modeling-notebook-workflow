@@ -1,10 +1,10 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(viz): Add enhanced visualizations and formatting
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(docs): Add basic README structure
 
-Visual enhancements:
-- Created cluster representative image displays in grid format
-- Improved chart formatting, labels, and titles
-- Added better figure sizing for presentation
-- Enhanced explained variance plots
+Created initial README.md with:
+- Project title and tagline
+- Basic overview of unsupervised learning techniques
+- Tech stack listing
+- Minimal setup instructions
 
-Made the notebook more visually appealing and presentation-ready.
-Verified: All visualizations render with improved styling.
+Started with basic documentation structure before adding comprehensive details.
+Verified: README provides basic project information.
