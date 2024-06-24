@@ -1,9 +1,10 @@
-Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(docs): Add explanatory markdown cells
+Ramin Yazdani | unsupervised-learning-clustering-pca | main | feat(viz): Add enhanced visualizations and formatting
 
-Extended notebook with markdown explanations:
-- Added markdown cells explaining methodology
-- Included interpretation of results
-- Documented key findings and insights
+Visual enhancements:
+- Created cluster representative image displays in grid format
+- Improved chart formatting, labels, and titles
+- Added better figure sizing for presentation
+- Enhanced explained variance plots
 
-Enhanced the notebook's educational value by adding contextual explanations.
-Verified: Markdown cells render correctly and enhance understanding.
+Made the notebook more visually appealing and presentation-ready.
+Verified: All visualizations render with improved styling.
