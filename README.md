@@ -61,7 +61,7 @@ pip install -r requirements.txt
 Launch the Jupyter notebook from the repository root:
 
 ```bash
-jupyter run unsupervised_learning_analysis.ipynb
+jupyter notebook unsupervised_learning_analysis.ipynb
 ```
 
 The notebook will open in your default web browser. Execute cells sequentially using `Shift+Enter` or the "Run" button.

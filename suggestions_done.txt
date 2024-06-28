@@ -1,0 +1,19 @@
+FILE	LOCATOR	BEFORE_SNIPPET	AFTER_SNIPPET	NOTES
+requirements.txt	entire file	numpy>=1.21.0\nmatplotlib>=3.3.0\njupyter>=1.0.0	numpy>=1.21.0\nmatplotlib>=3.3.0\njupyter>=1.0.0\nscikit-learn>=1.0.0	Added missing scikit-learn dependency
+assignment_4_handout.ipynb	filename	assignment_4_handout.ipynb	unsupervised_learning_analysis.ipynb	Renamed to professional descriptive name
+unsupervised_learning_analysis.ipynb	cell[0]	# EML 4 Problem 4\n**Matriculation Number:** 7068679\n**Email:** raya00001@stud.uni-saarland.de	# Unsupervised Learning: Clustering & Dimensionality Reduction\n**Author:** Ramin Yazdani\n**Date:** December 2024	Removed academic identifiers; professional title
+unsupervised_learning_analysis.ipynb	cell[1]	# Assignment 4 - Unsupervised Learning	# Overview: Unsupervised Learning Techniques	Professional heading
+unsupervised_learning_analysis.ipynb	cell[2]	# Instructions\nThis assignment is worth 10 points	# Introduction\nThis notebook demonstrates practical applications	Removed assignment language
+unsupervised_learning_analysis.ipynb	cell[3]	# Part One: Clustering, <span style="color:green">total of 6.5 points</span>	# Part One: Clustering Analysis	Removed HTML markup and scoring
+unsupervised_learning_analysis.ipynb	cell[6]	In this assignment, you will work	In this analysis, we work	Professional language
+unsupervised_learning_analysis.ipynb	cell[13]	### <span style="color:red">Task 1: Answer the following questions</span>	### Analysis Questions	Removed task markup
+unsupervised_learning_analysis.ipynb	cell[20]	### <span style="color:red">Task 2: Train a LogisticRegression model</span>	### Training with Limited Labeled Data	Removed task markup
+unsupervised_learning_analysis.ipynb	cell[21]	# TODO: fit the classifier	# Fit the classifier using only the first n_labeled (50) data points	Removed TODO
+unsupervised_learning_analysis.ipynb	cell[22]	### <span style="color:red">Task 3: Training on the representative points</span>	### Training on Cluster Representatives	Removed task markup
+unsupervised_learning_analysis.ipynb	cell[23]	k = 50 # TODO: number of clusters?	k = 50  # Number of clusters (chosen based on elbow method)	Removed TODO; added explanation
+unsupervised_learning_analysis.ipynb	cell[28]	### <span style="color:red">Task 4: Let's use all the data points</span>	### Using All Data Points with Cluster Labels	Removed task markup
+unsupervised_learning_analysis.ipynb	cell[31]	# Part Two: Dimensionality Reduction, <span style="color:green">total of 3.5 points</span>	# Part Two: Dimensionality Reduction with PCA	Removed HTML markup and scoring
+unsupervised_learning_analysis.ipynb	cell[37]	### <span style="color:red">Task 5: You will need to complete this function</span>	### PCA with Logistic Regression	Removed task markup
+unsupervised_learning_analysis.ipynb	cell[41]	### <span style="color:red">Task 6: Select the optimal number</span>	### Selecting Optimal PCA Components	Removed task markup
+README.md	entire file	# Data Analysis and Modeling\n[generic content]	# Unsupervised Learning Workflow: Clustering & Dimensionality Reduction\n[comprehensive portfolio content]	Complete rewrite with professional structure
+.gitignore	new file	[did not exist]	[Python project .gitignore]	Added standard Python .gitignore

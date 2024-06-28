@@ -1,17 +1,24 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter
+# Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb_checkpoints
 
-# IDEs
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # OS
 .DS_Store
