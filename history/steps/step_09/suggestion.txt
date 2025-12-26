@@ -1,4 +1,4 @@
-TYPEFILELOCATORBEFORE_SNIPPETPROPOSED_CHANGERATIONALESTATUS
+TYPE	FILE	LOCATOR	BEFORE_SNIPPET	PROPOSED_CHANGE	RATIONALE	STATUS
 RENAMEassignment_4_handout.ipynbfilenameassignment_4_handout.ipynbunsupervised_learning_analysis.ipynbRemove 'assignment' and 'handout' from filename; use professional descriptive nameAPPLIED
 TRACEassignment_4_handout.ipynbcell[0] line 1# EML 4 Problem 4# Unsupervised Learning: Clustering & Dimensionality ReductionRemove course code (EML 4) and problem number; use professional titleAPPLIED
 TRACEassignment_4_handout.ipynbcell[0] lines 5-7**Matriculation Number:** 7068679\n**Email:** raya00001@stud.uni-saarland.de[Remove these lines]Remove matriculation number and student email (academic identifiers)APPLIED

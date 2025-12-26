@@ -1,4 +1,4 @@
-FILELOCATORBEFORE_SNIPPETAFTER_SNIPPETNOTES
+FILE	LOCATOR	BEFORE_SNIPPET	AFTER_SNIPPET	NOTES
 requirements.txt entire filenumpy>=1.21.0\nmatplotlib>=3.3.0\njupyter>=1.0.0numpy>=1.21.0\nmatplotlib>=3.3.0\njupyter>=1.0.0\nscikit-learn>=1.0.0Added missing scikit-learn dependency
 assignment_4_handout.ipynb filenameassignment_4_handout.ipynbunsupervised_learning_analysis.ipynbRenamed to professional descriptive name
 unsupervised_learning_analysis.ipynb cell[0]# EML 4 Problem 4\n**Matriculation Number:** 7068679\n**Email:** raya00001@stud.uni-saarland.de# Unsupervised Learning: Clustering & Dimensionality Reduction\n**Author:** Ramin Yazdani\n**Date:** December 2024Removed academic identifiers; professional title
