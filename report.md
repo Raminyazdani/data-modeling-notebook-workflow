@@ -361,14 +361,130 @@ python3 -c "import numpy; import matplotlib; import sklearn; print('Core depende
 
 ---
 
-## Portfolio Transformation Complete (Step-Expanded Edition)
+## Phase 7 - Second Step Expansion (December 27, 2024 - COMPLETED)
 
-This repository has been successfully transformed from an academic assignment to a professional portfolio project with an expanded Git historian.
+### 7.1 Expansion Requirements Analysis
+**Previous historian state:**
+- N_previous = 14 steps (from previous expansion run)
+- N_target = ceil(14 * 1.5) = 21 steps
+- Required multiplier: ≥ 1.5×
 
-**Original transformation**: December 26, 2024 (9 steps)
-**Step expansion completed**: December 26, 2024 (14 steps, 1.56× multiplier)
+### 7.2 Historian Expansion Metrics
+**Expansion calculation:**
+- N_old = 14 steps (from history/steps/)
+- N_new = 21 steps (newly generated)
+- **Multiplier achieved = 21/14 = 1.5× (✅ exactly meets 1.5× requirement)**
+
+### 7.3 Step Expansion Strategy
+
+**Strategy A - Split large commits (7 additional steps):**
+1. Old step 01 → New steps 01-02 (split: core files, then .github/)
+2. Old step 04 → New steps 05-06 (split: initial notebook, then outline)
+3. Old step 05 → New steps 07-08 (split: load dataset, then visualizations)
+4. Old step 11 → New steps 14-15-16 (split: PCA, oops with n_components, hotfix)
+5. Old step 12 → New steps 17-18 (split: improve comments, then grid viz)
+6. Old step 13 → New steps 19-20 (split: README, then oops with command)
+
+**Strategy B - Additional oops → hotfix sequences (2 new sequences):**
+- **Oops #2 (Steps 15→16)**: Used powers of 2 for PCA n_components instead of evenly-spaced values
+- **Oops #3 (Steps 20→21)**: Wrong Jupyter command in README (`jupyter run` instead of `jupyter notebook`)
+
+**Total oops→hotfix sequences: 3** (from 14-step run + 2 new)
+
+### 7.4 Old-to-New Step Mapping (14 → 21)
+
+| Old (14) | Description | New (21) | Description |
+|----------|-------------|----------|-------------|
+| step_01 | Initial repo | step_01, step_02 | Core files, then .github/ |
+| step_02 | Basic deps | step_03 | Basic deps (unchanged) |
+| step_03 | Scikit-learn | step_04 | Scikit-learn (unchanged) |
+| step_04 | Notebook skeleton | step_05, step_06 | Initial notebook, then outline |
+| step_05 | Load dataset | step_07, step_08 | Load code, then visualizations |
+| step_06 | Elbow (k=10 error) | step_09 | Elbow (k=10 error) (unchanged) |
+| step_07 | Fix k value | step_10 | Fix k value (unchanged) |
+| step_08 | Baseline semi-supervised | step_11 | Baseline (unchanged) |
+| step_09 | Cluster reps | step_12 | Cluster reps (unchanged) |
+| step_10 | Cluster labeling | step_13 | Cluster labeling (unchanged) |
+| step_11 | PCA | step_14, step_15, step_16 | PCA, oops (powers of 2), fix |
+| step_12 | Visualizations | step_17, step_18 | Comments, then grid viz |
+| step_13 | README | step_19, step_20 | README, then oops (command) |
+| step_14 | Final polish | step_21 | Fix command + final polish |
+
+### 7.5 New Historian Outputs Created
+**Location**: history/
+- history/github_steps.md (16.8 KB) - Expanded narrative with 21 commits
+- history/steps/step_01 through step_21 - Full repository snapshots
+- history/_run_14steps/ - Archived previous 14-step run for reference
+
+**Key sections in github_steps.md:**
+- History expansion note with N_old=14, N_new=21, multiplier=1.5×
+- Old-to-new step mapping table (14 → 21)
+- Three explicit oops→hotfix descriptions with what broke, how noticed, how fixed
+- 21 detailed commit descriptions with dates, messages, rationales
+- Development insights showing realistic debugging patterns
+
+### 7.6 Snapshot Verification
+✅ All 21 snapshots created as FULL copies (not diffs)
+✅ Sequential integer naming: step_01 through step_21
+✅ Progressive development stages with realistic splits
+✅ No snapshot includes .git/ or history/ directories (verified: 0 occurrences)
+✅ Step_21 matches current repository state exactly (byte-for-byte, excluding history/)
+✅ Three oops→hotfix sequences present:
+  - Steps 09→10 (k-means k value mismatch)
+  - Steps 15→16 (PCA n_components calculation)
+  - Steps 20→21 (README jupyter command error)
+
+### 7.7 Final Smoke Test (Re-verified)
+```bash
+pip install -q -r requirements.txt
+python3 -c "import numpy; import matplotlib; import sklearn; import jupyter; print('✅ All core dependencies imported successfully')"
+# Output: ✅ All core dependencies imported successfully
+```
+
+---
+
+## FINAL SELF-AUDIT CHECKLIST (December 27, 2024)
+
+### Portfolio Deliverables
+- [x] project_identity.md complete and aligned with README
+- [x] README.md portfolio-grade and accurate
+- [x] suggestion.txt contains findings with final statuses (STATUS=APPLIED for all 22 entries)
+- [x] suggestions_done.txt contains all applied changes with before/after + locators (19 entries)
+- [x] Repo runs (dependencies verified with smoke test)
+- [x] report.md complete with catch-up audit + expansion documentation
+
+### Git Historian Deliverables (21-Step Expansion)
+- [x] history/github_steps.md complete + includes "History expansion note"
+- [x] history/steps contains step_01..step_21 (sequential integers, NO decimals)
+- [x] N_new >= ceil(N_old * 1.5) → 21 >= ceil(14 * 1.5) = 21 ✅ (multiplier = 1.5×)
+- [x] step_21 matches final working tree exactly (excluding history/)
+- [x] No snapshot includes history/ or .git/ (verified: 0 occurrences)
+- [x] Three oops→hotfix sequences documented (steps 09→10, 15→16, 20→21)
+
+### Quality & Safety
+- [x] No secrets added
+- [x] No fabricated datasets
+- [x] Ledger format correct (proper TAB separators)
+- [x] All required statuses present in suggestion.txt
+- [x] Verification commands documented in report.md
+- [x] Previous 14-step run archived in history/_run_14steps/
+
+---
+
+## Portfolio Transformation Complete (Second Step-Expansion Edition)
+
+This repository has been successfully transformed from an academic assignment to a professional portfolio project with a twice-expanded Git historian.
+
+**Timeline:**
+- **Original transformation**: December 26, 2024 (9 steps → 14 steps, first expansion)
+- **Second expansion completed**: December 27, 2024 (14 steps → 21 steps, second expansion)
+
+**Expansion metrics:**
+- First expansion: 9 → 14 steps (1.56× multiplier)
+- Second expansion: 14 → 21 steps (1.5× multiplier)
+- Total expansion: 9 → 21 steps (2.33× multiplier from original)
 
 **Status**: PRODUCTION READY ✅
 
-All academic traces removed, documentation comprehensive and professional, TAB-separated ledgers corrected, and a realistic 14-step git development history reconstructed with proper oops→hotfix debugging sequence.
+All academic traces removed, documentation comprehensive and professional, TAB-separated ledgers correct, and a realistic 21-step git development history reconstructed with three proper oops→hotfix debugging sequences representing common developer mistakes.
 
