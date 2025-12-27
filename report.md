@@ -448,10 +448,12 @@ python3 -c "import numpy; import matplotlib; import sklearn; import jupyter; pri
 ### Portfolio Deliverables
 - [x] project_identity.md complete and aligned with README
 - [x] README.md portfolio-grade and accurate
-- [x] suggestion.txt contains findings with final statuses (STATUS=APPLIED for all 22 entries)
-- [x] suggestions_done.txt contains all applied changes with before/after + locators (19 entries)
+- [x] suggestion.txt contains findings with final statuses (STATUS=APPLIED for all 21 entries)
+- [x] suggestions_done.txt contains all applied changes with before/after + locators (18 entries)
 - [x] Repo runs (dependencies verified with smoke test)
 - [x] report.md complete with catch-up audit + expansion documentation
+
+**Note**: suggestion.txt has 21 entries (all STATUS=APPLIED) while suggestions_done.txt has 18 entries. This is expected as suggestions_done.txt contains granular before/after snippets for specific file changes, while some suggestion.txt entries represent higher-level changes (like "complete README rewrite") that encompass multiple smaller changes.
 
 ### Git Historian Deliverables (21-Step Expansion)
 - [x] history/github_steps.md complete + includes "History expansion note"
